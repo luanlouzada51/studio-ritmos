@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio Ritmos</title>
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">STUDIO<br>RITMOS</div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#aulas">Aulas</a></li>
+        <li><a href="#horarios">Horários</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <div class="hero-content" id="inicio">
+      <h1>AULA DE RITMOS</h1>
+      <p>Dance, divirta-se e entre em forma!</p>
+      <a href="#horarios" class="btn-horarios">
+        <button>VER HORÁRIOS</button>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="sobre grid-section" id="sobre">
+      <div>
+        <h2>SOBRE A AULA</h2>
+        <p>
+          O Studio Ritmos oferece aulas dinâmicas que combinam diversos estilos musicais, promovendo saúde, diversão e
+          bem-estar. Nossos professores são experientes e apaixonados por dança, proporcionando um ambiente acolhedor
+          para todas as idades.
+        </p>
+      </div>
+      <img src="./src/imagens/sobre-a-aula.png" alt="Aula de dança" class="section-img">
+    </section>
+
+    <section class="aulas grid-section" id="aulas">
+      <img src="./src/imagens/nossas-aulas.png" alt="Turma dançando" class="section-img">
+      <div>
+        <h2>NOSSAS AULAS</h2>
+        <ul class="aulas-list">
+          <li>A definir</li>
+          <li>A definir</li>
+          <li>A definir</li>
+          <li>A definir</li>
+          <li>A definir</li>
+        </ul>
+        <p>
+          Consulte nossos horários e encontre a turma ideal para você!
+        </p>
+      </div>
+    </section>
+
+    <section class="horarios grid-section" id="horarios">
+      <div>
+        <h2>HORÁRIOS</h2>
+        <table class="tabela-horarios">
+          <thead>
+            <tr>
+              <th>Dia</th>
+              <th>Horário</th>
+              <th>Modalidade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Segunda</td>
+              <td>00:00 - 00:00</td>
+              <td>Zumba</td>
+            </tr>
+            <tr>
+              <td>Terça</td>
+              <td>00:00 - 00:00</td>
+              <td>Zumba</td>
+            </tr>
+            <tr>
+              <td>Quarta</td>
+              <td>00:00 - 00:00</td>
+              <td>Zumba</td>
+            </tr>
+            <tr>
+              <td>Quinta</td>
+              <td>00:00 - 00:00</td>
+              <td>Zumba</td>
+            </tr>
+            <tr>
+              <td>Sexta</td>
+              <td>00:00 - 00:00</td>
+              <td>Zumba</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          Consulte-nos para horários especiais e turmas particulares!
+        </p>
+      </div>
+      <img src="./src/imagens/horarios.jpg" alt="Quadro de horários" class="section-img">
+    </section>
+
+    <section class="contato grid-section" id="contato">
+  <div>
+    <h2>CONTATO</h2>
+    <p>
+      📍 Rua Bororós, 352 - Jari, Viamão/RS<br>
+      📞 (51) 99423-7224<br>
+      ✉️ reginapereiralouzada@gmail.com
+    </p>
+<form class="contato-form">
+  <input type="text" name="nome" placeholder="Seu nome" required>
+  <input type="email" name="email" placeholder="Seu e-mail" required>
+  <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+  <button type="submit" id="enviarWhatsapp">Enviar</button>
+</form>
+  </div>
+  <img src="./src/imagens/contato.jpg" alt="Entre em contato" class="section-img">
+</section>
+  </main>
+
+  <script src="./src/index.js"></script>
+</body>
+</html>
