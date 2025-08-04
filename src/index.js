@@ -40,7 +40,7 @@ if (btnWhatsapp) {
     }
 
     const texto = `Olá! Estou interessado (a) nas aulas de ritmos:%0A%0ANome: ${nome}%0AE-mail: ${email}%0AMensagem: ${mensagem}`;
-    const numero = '5551994237224'; // Substitua pelo número do WhatsApp do responsável
+    const numero = '55519'; // Substitua pelo número do WhatsApp do responsável
 
     window.open(`https://wa.me/${numero}?text=${texto}`, '_blank');
   });
